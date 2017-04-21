@@ -1,0 +1,35 @@
+{
+  "name": "is-e164-phone-number",
+  "version": "0.0.0",
+  "description": "Check if a string is a valid E. 164 phone number",
+  "license": "MIT",
+  "repository": "SamVerschueren/is-e164-phone-number",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "e164",
+    "phonenumber",
+    "phone",
+    "number",
+    "telephone",
+    "check",
+    "is",
+    "match"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
